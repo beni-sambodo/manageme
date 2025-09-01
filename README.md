@@ -386,15 +386,15 @@ This project is licensed under the **ISC License** - see the [LICENSE](LICENSE) 
 
 For support, questions, or collaboration opportunities:
 
-- **Email**: [your-email@domain.com]
-- **Issues**: [GitHub Issues](https://github.com/yourusername/manageme.uz/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/manageme.uz/discussions)
+- **Email**: [saydaliyevdurbek0512@gmail.com]
+- **Issues**: [GitHub Issues](https://github.com/Durbekjon/manageme/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Durbekjon/manageme/discussions)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by a Senior Software Engineer passionate about scalable, secure, and maintainable code.**
+**Built with ❤️ by a Software Engineer passionate about scalable, secure, and maintainable code.**
 
 [![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green.svg)](https://nodejs.org/)
 [![Made with Express](https://img.shields.io/badge/Made%20with-Express-blue.svg)](https://expressjs.com/)
