@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+}
+.fc-scrollgrid {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+.fc-button-primary {
+  background: #696cff !important;
+  border: none !important;
+  height: 45px;
+  width: 80px;
+}
+.fc-prev-button {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+  margin-right: 2px !important;
+}
+.select-status-new .ant-select-selector {
+  border-color: #4caf50 !important; /* Green border for NEW */
+  background-color: #e8f5e9; /* Light green background */
+}
+
+.select-status-inview .ant-select-selector {
+  border-color: #ffc107 !important; /* Yellow border for INVIEW */
+  background-color: #fff8e1; /* Light yellow background */
+}
+
+.select-status-cancelled .ant-select-selector {
+  border-color: #f44336 !important; /* Red border for CANCELLED */
+  background-color: #ffebee; /* Light red background */
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity)) !important;
+}
+.fc-next-button {
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+  margin-left: 2px !important;
+}
+.fc-toolbar-title {
+  font-weight: 700;
+  font-size: 30px !important;
+}
+.ant-btn-primary:not([disabled]) {
+  background: #696cff !important;
+}
+.ant-btn-primary:not([disabled]):hover {
+  background: #1f4ce0 !important;
+}
+
+.rmdp-calendar,
+.rmdp-top-class,
+.rmdp-wrapper,
+.rmdp-day-picker > div {
+  width: 100% !important;
+}
+.rmdp-day-picker > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.rmdp-today span {
+  background: #3e41f7 !important;
+}
+.rmdp-selected span {
+  background: #2c4ee58f !important;
+}
+.rmdp-border {
+  border: none;
+}
+
+.ant-list-item-action {
+  display: flex;
+  align-items: center;
+}
+
+/* animation.css */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 2s linear infinite;
+}
+button {
+  cursor: pointer;
+}
